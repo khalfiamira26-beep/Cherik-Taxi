@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherik Taxi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🚕 Cherik Taxi</h1>
+        <p>Votre transport, notre priorité</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Menu gauche -->
+        <nav class="menu">
+            <h3>Menu</h3>
+
+            <button id="btnAccueil">Accueil</button>
+            <button id="btnReservation">Réservation</button>
+            <button id="btnServices">Services</button>
+        </nav>
+
+        <!-- Contenu principal -->
+        <main>
+
+            <!-- Accueil -->
+            <section id="accueil">
+                <div class="welcome">
+                <h1>Bienvenue Au Site Web</h1>
+                <h2>Bienvenue chez Cherik Taxi</h2>
+                </div>
+                <h2>Votre Transport, Notre Priorité</h2>
+                <p>
+                    Cherik Taxi vous propose un service de transport
+                    rapide, confortable et sécurisé.
+                </p>
+
+                <h3>Pourquoi choisir Cherik Taxi ?</h3>
+
+                <p>✔ Service rapide</p>
+                <p>✔ Chauffeurs professionnels</p>
+                <p>✔ Confort et sécurité</p>
+            </section>
+
+            <!-- Réservation -->
+            <section id="reservation">
+                <h2>Réserver un taxi</h2>
+
+                <label>Départ :</label>
+                <input type="text" id="depart" placeholder="Ville de départ">
+
+                <label>Destination :</label>
+                <input type="text" id="destination" placeholder="Ville d'arrivée">
+
+                <label>Date :</label>
+                <input type="date" id="date">
+
+                <label>Heure :</label>
+                <input type="time" id="heure">
+
+                <button id="btnReserver">Réserver</button>
+
+                <p id="message"></p>
+
+                <h3>Dernière réservation</h3>
+
+                <table>
+                    <tr>
+                        <th>Départ</th>
+                        <th>Destination</th>
+                        <th>Date</th>
+                        <th>Heure</th>
+                    </tr>
+
+                    <tr>
+                        <td id="d1">-</td>
+                        <td id="d2">-</td>
+                        <td id="d3">-</td>
+                        <td id="d4">-</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Services -->
+            <section id="services">
+                <h2>Nos Services</h2>
+
+                <div class="service">
+                    <h3>🚖 Transport urbain</h3>
+                    <p>Transport rapide dans toute la ville.</p>
+                </div>
+
+                <div class="service">
+                    <h3>✈️ Transport vers l'aéroport</h3>
+                    <p>Déplacement vers les aéroports.</p>
+                </div>
+
+                <div class="service">
+                    <h3>🕒 Service disponible</h3>
+                    <p>Réservation selon vos besoins.</p>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Informations droite -->
+        <aside>
+            <h3>Infos rapides</h3>
+
+            <p>📞 Téléphone</p>
+            <p>+216  XX XXX XXX</p>
+
+            <hr>
+
+            <p>🕒 Disponibilité</p>
+            <p>7j/7</p>
+
+            <hr>
+
+            <p>🚕 Notre véhicule</p>
+            <div class="taxi">🚕</div>
+
+            <p>Voyagez en toute tranquillité !</p>
+        </aside>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Cherik Taxi - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
